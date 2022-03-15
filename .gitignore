@@ -1,0 +1,44 @@
+# This file assumes a project based on Xcode 12 and above.
+#
+# It configures only those settings needed for this project regrding Xcode and macOS. 
+
+# This will ignore the xcconfig files that hold developer credentials, app name, etc for Xcode
+Xcode_Config
+
+# Finder metadata
+.DS_Store
+
+# Ignore Xcode created configuration data
+xcuserdata/
+
+# Swift and Objective-C realted derived files
+*.hmap
+
+# Packaging related files
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Playgrounds
+# This project doesn't include any Swift Playgrounds related files.
+# Uncomment below if your project does.
+# timeline.xctimeline
+# playground.xcworkspace
+
+# Package manager files.
+# This project does not use Swift Packages or other package manager based libraries.
+# Uncomment these lines where appropriate for projects that do.
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+#
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+# .build/
+
