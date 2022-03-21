@@ -1,4 +1,4 @@
-# CircuiBreaker iOS AUv3
+# CircuitBreaker iOS AUv3
 
 CircuitBreaker is a small demonstration project. They primary purpose of the project is to investigate how to solve issues with code signing and project configuration for an open source project developed in Xcode and hosted on GitHub.
 
