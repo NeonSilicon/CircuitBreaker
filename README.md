@@ -10,6 +10,7 @@ The Xcode project is in the CircuitBreaker subdirectory of the directory that co
 
 the *setup.sh* script should be run before openning the Xcode project in Xcode. Setup.sh will build a directory named Xcode_Config that contains a file named DeveloperSettings.xcconfig using information that is provided to the script when it is executed. The Xcode_Config directory is excluded from the Git repository in the .gitignore file. The point of doing this is that it insures that the devloper signing data is not checked into the git repo. The configuration also allows for providing the identifier and the name of the AUv3 and container app.
 
+Once the script has been run, you can directly edit the Xcode_Config/DeveloperSettings.xcconfig file to make changes or you can delete the Xcode_Config directory and rerun the setup.sh script.
 
 ## How does the project configuration work.
 The Xcode_Config/DeveloperSettings.xcconfig file contains definitions for parameters that are needed for signing. This file is included by the xcconfig files in the Xcode project. The parameter definitions are then usable in the xcconfig files to configure the build parameters.

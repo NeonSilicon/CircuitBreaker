@@ -1,0 +1,15 @@
+//
+//  CircuitBreaker_iosapp_target.xcconfig
+//  CircuitBreaker
+//
+// This file can also be used to change set the App Icon and Product Name which can then be further configured in the
+// release and debug xcconfig files for easy differentiation at runtime.
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "../Xcode_Config/DeveloperSettings.xcconfig"
+
+CODE_SIGN_ENTITLEMENTS = CircuitBreaker/CircuitBreaker.entitlements
+PRODUCT_BUNDLE_IDENTIFIER = $(ORGANIZATION_IDENTIFIER).CircuitBreaker
+

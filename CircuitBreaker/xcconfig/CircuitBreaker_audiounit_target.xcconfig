@@ -1,0 +1,18 @@
+//
+//  CircuitBreaker_audiounit_target.xcconfig
+//  CircuitBreaker
+//
+//  Created by Robert Abernathy on 3/16/22.
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "../Xcode_Config/DeveloperSettings.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = $(ORGANIZATION_IDENTIFIER).CircuitBreaker.CircuitBreaker-AU
+
+// Testing to see if putting the AU version number here in hex will work to get the correct number in the Info.plist
+// The standard Info.plist type for the version entry is <real>. I'm trying with a <string> to see if this will allow for the build to work. It probably won't and this idea will fail.
+// This doesn't work because the plist cant take a variable name in a NUMBER type.
+// 0x010001 == version 1.0 build 1
+VERSION_NUMBER = 0x010001

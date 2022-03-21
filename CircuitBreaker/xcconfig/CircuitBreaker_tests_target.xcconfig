@@ -1,0 +1,13 @@
+//
+//  CircuitBreaker_tests_target.xcconfig
+//  CircuitBreaker
+//
+//  Created by Robert Abernathy on 3/16/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "../Xcode_Config/DeveloperSettings.xcconfig"
+
+PRODUCT_BUNDLE_IDENTIFIER = $(ORGANIZATION_IDENTIFIER).CircuitBreakerTests

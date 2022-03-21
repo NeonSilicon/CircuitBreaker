@@ -1,0 +1,13 @@
+//
+//  CircuitBreaker_project.xcconfig
+//  CircuitBreaker
+//
+//  This file can be used to include project level configuration information e.g. compiler configurations
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "../Xcode_Config/DeveloperSettings.xcconfig"
+
+ASSETCATALOG_COMPILER_APPICON_NAME = Diode
+

@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D435B02A27E2B2B1002C42F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B02927E2B2B1002C42F3 /* AppDelegate.swift */; };
+		D435B02C27E2B2B1002C42F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B02B27E2B2B1002C42F3 /* SceneDelegate.swift */; };
+		D435B02E27E2B2B1002C42F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B02D27E2B2B1002C42F3 /* ViewController.swift */; };
+		D435B03127E2B2B1002C42F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435B02F27E2B2B1002C42F3 /* Main.storyboard */; };
+		D435B03327E2B2B2002C42F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D435B03227E2B2B2002C42F3 /* Assets.xcassets */; };
+		D435B03627E2B2B2002C42F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435B03427E2B2B2002C42F3 /* LaunchScreen.storyboard */; };
+		D435B04127E2B2B2002C42F3 /* CircuitBreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B04027E2B2B2002C42F3 /* CircuitBreakerTests.swift */; };
+		D435B04B27E2B2B2002C42F3 /* CircuitBreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B04A27E2B2B2002C42F3 /* CircuitBreakerUITests.swift */; };
+		D435B04D27E2B2B2002C42F3 /* CircuitBreakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D435B04C27E2B2B2002C42F3 /* CircuitBreakerUITestsLaunchTests.swift */; };
+		D4E1003527E356DE00620B8D /* CircuitBreaker_AUAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E1003427E356DE00620B8D /* CircuitBreaker_AUAudioUnit.m */; };
+		D4E1003927E356DE00620B8D /* DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = D4E1003827E356DE00620B8D /* DSPKernel.hpp */; };
+		D4E1003B27E356DE00620B8D /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4E1003A27E356DE00620B8D /* DSPKernel.mm */; };
+		D4E1003D27E356DE00620B8D /* BufferedAudioBus.hpp in Resources */ = {isa = PBXBuildFile; fileRef = D4E1003C27E356DE00620B8D /* BufferedAudioBus.hpp */; };
+		D4E1004027E356DE00620B8D /* CircuitBreaker_AUDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = D4E1003F27E356DE00620B8D /* CircuitBreaker_AUDSPKernel.hpp */; };
+		D4E1004227E356DE00620B8D /* CircuitBreaker_AUDSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4E1004127E356DE00620B8D /* CircuitBreaker_AUDSPKernel.mm */; };
+		D4E1004527E356DE00620B8D /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E1004427E356DE00620B8D /* AudioUnitViewController.swift */; };
+		D4E1004D27E356DE00620B8D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E1004B27E356DE00620B8D /* MainInterface.storyboard */; };
+		D4E1005127E356DE00620B8D /* CircuitBreaker AU.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D4E1003027E356DE00620B8D /* CircuitBreaker AU.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4E1005B27E37BA700620B8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E1005827E37BA700620B8D /* AudioToolbox.framework */; };
+		D4E1005C27E37BA700620B8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E1005927E37BA700620B8D /* AVFoundation.framework */; };
+		D4E1005D27E37BA700620B8D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E1005A27E37BA700620B8D /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D435B03D27E2B2B2002C42F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435B01E27E2B2B1002C42F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D435B02527E2B2B1002C42F3;
+			remoteInfo = CircuitBreaker;
+		};
+		D435B04727E2B2B2002C42F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435B01E27E2B2B1002C42F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D435B02527E2B2B1002C42F3;
+			remoteInfo = CircuitBreaker;
+		};
+		D4E1004F27E356DE00620B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D435B01E27E2B2B1002C42F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4E1002F27E356DE00620B8D;
+			remoteInfo = "CircuitBreaker AU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D4E1005327E356DE00620B8D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D4E1005127E356DE00620B8D /* CircuitBreaker AU.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D435B02627E2B2B1002C42F3 /* CircuitBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircuitBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435B02927E2B2B1002C42F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D435B02B27E2B2B1002C42F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D435B02D27E2B2B1002C42F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D435B03027E2B2B1002C42F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D435B03227E2B2B2002C42F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D435B03527E2B2B2002C42F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D435B03727E2B2B2002C42F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D435B03C27E2B2B2002C42F3 /* CircuitBreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuitBreakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435B04027E2B2B2002C42F3 /* CircuitBreakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitBreakerTests.swift; sourceTree = "<group>"; };
+		D435B04627E2B2B2002C42F3 /* CircuitBreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircuitBreakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435B04A27E2B2B2002C42F3 /* CircuitBreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitBreakerUITests.swift; sourceTree = "<group>"; };
+		D435B04C27E2B2B2002C42F3 /* CircuitBreakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitBreakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D435B05A27E2B593002C42F3 /* CircuitBreaker_project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_project.xcconfig; sourceTree = "<group>"; };
+		D435B05B27E2B5E1002C42F3 /* CircuitBreaker_project_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_project_debug.xcconfig; sourceTree = "<group>"; };
+		D435B05C27E2B5EE002C42F3 /* CircuitBreaker_project_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_project_release.xcconfig; sourceTree = "<group>"; };
+		D435B05D27E2B613002C42F3 /* CircuitBreaker_iosapp_target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_iosapp_target.xcconfig; sourceTree = "<group>"; };
+		D435B05E27E2BA0C002C42F3 /* CircuitBreaker_audiounit_target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_audiounit_target.xcconfig; sourceTree = "<group>"; };
+		D435B05F27E2BB11002C42F3 /* CircuitBreaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CircuitBreaker.entitlements; sourceTree = "<group>"; };
+		D435B06027E2BE6D002C42F3 /* CircuitBreaker_tests_target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_tests_target.xcconfig; sourceTree = "<group>"; };
+		D435B06127E2BE8F002C42F3 /* CircuitBreaker_uitests_target.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CircuitBreaker_uitests_target.xcconfig; sourceTree = "<group>"; };
+		D4E1003027E356DE00620B8D /* CircuitBreaker AU.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CircuitBreaker AU.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E1003327E356DE00620B8D /* CircuitBreaker_AUAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircuitBreaker_AUAudioUnit.h; sourceTree = "<group>"; };
+		D4E1003427E356DE00620B8D /* CircuitBreaker_AUAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircuitBreaker_AUAudioUnit.m; sourceTree = "<group>"; };
+		D4E1003827E356DE00620B8D /* DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
+		D4E1003A27E356DE00620B8D /* DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
+		D4E1003C27E356DE00620B8D /* BufferedAudioBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BufferedAudioBus.hpp; sourceTree = "<group>"; };
+		D4E1003E27E356DE00620B8D /* CircuitBreaker_AUDSPKernelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircuitBreaker_AUDSPKernelAdapter.h; sourceTree = "<group>"; };
+		D4E1003F27E356DE00620B8D /* CircuitBreaker_AUDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircuitBreaker_AUDSPKernel.hpp; sourceTree = "<group>"; };
+		D4E1004127E356DE00620B8D /* CircuitBreaker_AUDSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CircuitBreaker_AUDSPKernel.mm; sourceTree = "<group>"; };
+		D4E1004427E356DE00620B8D /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		D4E1004A27E356DE00620B8D /* CircuitBreaker_AU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircuitBreaker_AU-Bridging-Header.h"; sourceTree = "<group>"; };
+		D4E1004C27E356DE00620B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		D4E1004E27E356DE00620B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E1005227E356DE00620B8D /* CircuitBreaker AU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CircuitBreaker AU.entitlements"; sourceTree = "<group>"; };
+		D4E1005827E37BA700620B8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		D4E1005927E37BA700620B8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4E1005A27E37BA700620B8D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D435B02327E2B2B1002C42F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B03927E2B2B2002C42F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B04327E2B2B2002C42F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1002D27E356DE00620B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E1005D27E37BA700620B8D /* Accelerate.framework in Frameworks */,
+				D4E1005C27E37BA700620B8D /* AVFoundation.framework in Frameworks */,
+				D4E1005B27E37BA700620B8D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D435B01D27E2B2B1002C42F3 = {
+			isa = PBXGroup;
+			children = (
+				D435B05927E2B512002C42F3 /* xcconfig */,
+				D435B02827E2B2B1002C42F3 /* CircuitBreaker */,
+				D435B03F27E2B2B2002C42F3 /* CircuitBreakerTests */,
+				D435B04927E2B2B2002C42F3 /* CircuitBreakerUITests */,
+				D4E1003127E356DE00620B8D /* CircuitBreaker AU */,
+				D435B02727E2B2B1002C42F3 /* Products */,
+				D4E1005727E37BA700620B8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D435B02727E2B2B1002C42F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D435B02627E2B2B1002C42F3 /* CircuitBreaker.app */,
+				D435B03C27E2B2B2002C42F3 /* CircuitBreakerTests.xctest */,
+				D435B04627E2B2B2002C42F3 /* CircuitBreakerUITests.xctest */,
+				D4E1003027E356DE00620B8D /* CircuitBreaker AU.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D435B02827E2B2B1002C42F3 /* CircuitBreaker */ = {
+			isa = PBXGroup;
+			children = (
+				D435B05F27E2BB11002C42F3 /* CircuitBreaker.entitlements */,
+				D435B02927E2B2B1002C42F3 /* AppDelegate.swift */,
+				D435B02B27E2B2B1002C42F3 /* SceneDelegate.swift */,
+				D435B02D27E2B2B1002C42F3 /* ViewController.swift */,
+				D435B02F27E2B2B1002C42F3 /* Main.storyboard */,
+				D435B03227E2B2B2002C42F3 /* Assets.xcassets */,
+				D435B03427E2B2B2002C42F3 /* LaunchScreen.storyboard */,
+				D435B03727E2B2B2002C42F3 /* Info.plist */,
+			);
+			path = CircuitBreaker;
+			sourceTree = "<group>";
+		};
+		D435B03F27E2B2B2002C42F3 /* CircuitBreakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D435B04027E2B2B2002C42F3 /* CircuitBreakerTests.swift */,
+			);
+			path = CircuitBreakerTests;
+			sourceTree = "<group>";
+		};
+		D435B04927E2B2B2002C42F3 /* CircuitBreakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D435B04A27E2B2B2002C42F3 /* CircuitBreakerUITests.swift */,
+				D435B04C27E2B2B2002C42F3 /* CircuitBreakerUITestsLaunchTests.swift */,
+			);
+			path = CircuitBreakerUITests;
+			sourceTree = "<group>";
+		};
+		D435B05927E2B512002C42F3 /* xcconfig */ = {
+			isa = PBXGroup;
+			children = (
+				D435B05A27E2B593002C42F3 /* CircuitBreaker_project.xcconfig */,
+				D435B05B27E2B5E1002C42F3 /* CircuitBreaker_project_debug.xcconfig */,
+				D435B05C27E2B5EE002C42F3 /* CircuitBreaker_project_release.xcconfig */,
+				D435B05D27E2B613002C42F3 /* CircuitBreaker_iosapp_target.xcconfig */,
+				D435B05E27E2BA0C002C42F3 /* CircuitBreaker_audiounit_target.xcconfig */,
+				D435B06027E2BE6D002C42F3 /* CircuitBreaker_tests_target.xcconfig */,
+				D435B06127E2BE8F002C42F3 /* CircuitBreaker_uitests_target.xcconfig */,
+			);
+			path = xcconfig;
+			sourceTree = "<group>";
+		};
+		D4E1003127E356DE00620B8D /* CircuitBreaker AU */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1005227E356DE00620B8D /* CircuitBreaker AU.entitlements */,
+				D4E1004A27E356DE00620B8D /* CircuitBreaker_AU-Bridging-Header.h */,
+				D4E1004B27E356DE00620B8D /* MainInterface.storyboard */,
+				D4E1004E27E356DE00620B8D /* Info.plist */,
+				D4E1003227E356DE00620B8D /* Audio Unit */,
+				D4E1003627E356DE00620B8D /* DSP */,
+				D4E1004327E356DE00620B8D /* UI */,
+			);
+			path = "CircuitBreaker AU";
+			sourceTree = "<group>";
+		};
+		D4E1003227E356DE00620B8D /* Audio Unit */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1003327E356DE00620B8D /* CircuitBreaker_AUAudioUnit.h */,
+				D4E1003427E356DE00620B8D /* CircuitBreaker_AUAudioUnit.m */,
+			);
+			path = "Audio Unit";
+			sourceTree = "<group>";
+		};
+		D4E1003627E356DE00620B8D /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1003F27E356DE00620B8D /* CircuitBreaker_AUDSPKernel.hpp */,
+				D4E1004127E356DE00620B8D /* CircuitBreaker_AUDSPKernel.mm */,
+				D4E1003727E356DE00620B8D /* Helpers */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		D4E1003727E356DE00620B8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1003827E356DE00620B8D /* DSPKernel.hpp */,
+				D4E1003A27E356DE00620B8D /* DSPKernel.mm */,
+				D4E1003C27E356DE00620B8D /* BufferedAudioBus.hpp */,
+				D4E1003E27E356DE00620B8D /* CircuitBreaker_AUDSPKernelAdapter.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D4E1004327E356DE00620B8D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1004427E356DE00620B8D /* AudioUnitViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D4E1005727E37BA700620B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4E1005A27E37BA700620B8D /* Accelerate.framework */,
+				D4E1005827E37BA700620B8D /* AudioToolbox.framework */,
+				D4E1005927E37BA700620B8D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D435B02527E2B2B1002C42F3 /* CircuitBreaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435B05027E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreaker" */;
+			buildPhases = (
+				D435B02227E2B2B1002C42F3 /* Sources */,
+				D435B02327E2B2B1002C42F3 /* Frameworks */,
+				D435B02427E2B2B1002C42F3 /* Resources */,
+				D4E1005327E356DE00620B8D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4E1005027E356DE00620B8D /* PBXTargetDependency */,
+			);
+			name = CircuitBreaker;
+			productName = CircuitBreaker;
+			productReference = D435B02627E2B2B1002C42F3 /* CircuitBreaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D435B03B27E2B2B2002C42F3 /* CircuitBreakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435B05327E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreakerTests" */;
+			buildPhases = (
+				D435B03827E2B2B2002C42F3 /* Sources */,
+				D435B03927E2B2B2002C42F3 /* Frameworks */,
+				D435B03A27E2B2B2002C42F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435B03E27E2B2B2002C42F3 /* PBXTargetDependency */,
+			);
+			name = CircuitBreakerTests;
+			productName = CircuitBreakerTests;
+			productReference = D435B03C27E2B2B2002C42F3 /* CircuitBreakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D435B04527E2B2B2002C42F3 /* CircuitBreakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D435B05627E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreakerUITests" */;
+			buildPhases = (
+				D435B04227E2B2B2002C42F3 /* Sources */,
+				D435B04327E2B2B2002C42F3 /* Frameworks */,
+				D435B04427E2B2B2002C42F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D435B04827E2B2B2002C42F3 /* PBXTargetDependency */,
+			);
+			name = CircuitBreakerUITests;
+			productName = CircuitBreakerUITests;
+			productReference = D435B04627E2B2B2002C42F3 /* CircuitBreakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D4E1002F27E356DE00620B8D /* CircuitBreaker AU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4E1005627E356DE00620B8D /* Build configuration list for PBXNativeTarget "CircuitBreaker AU" */;
+			buildPhases = (
+				D4E1002C27E356DE00620B8D /* Sources */,
+				D4E1002D27E356DE00620B8D /* Frameworks */,
+				D4E1002E27E356DE00620B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CircuitBreaker AU";
+			productName = "CircuitBreaker AU";
+			productReference = D4E1003027E356DE00620B8D /* CircuitBreaker AU.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D435B01E27E2B2B1002C42F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D435B02527E2B2B1002C42F3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					D435B03B27E2B2B2002C42F3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = D435B02527E2B2B1002C42F3;
+					};
+					D435B04527E2B2B2002C42F3 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = D435B02527E2B2B1002C42F3;
+					};
+					D4E1002F27E356DE00620B8D = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = D435B02127E2B2B1002C42F3 /* Build configuration list for PBXProject "CircuitBreaker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D435B01D27E2B2B1002C42F3;
+			productRefGroup = D435B02727E2B2B1002C42F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D435B02527E2B2B1002C42F3 /* CircuitBreaker */,
+				D435B03B27E2B2B2002C42F3 /* CircuitBreakerTests */,
+				D435B04527E2B2B2002C42F3 /* CircuitBreakerUITests */,
+				D4E1002F27E356DE00620B8D /* CircuitBreaker AU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D435B02427E2B2B1002C42F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435B03627E2B2B2002C42F3 /* LaunchScreen.storyboard in Resources */,
+				D435B03327E2B2B2002C42F3 /* Assets.xcassets in Resources */,
+				D435B03127E2B2B1002C42F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B03A27E2B2B2002C42F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B04427E2B2B2002C42F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1002E27E356DE00620B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E1003927E356DE00620B8D /* DSPKernel.hpp in Resources */,
+				D4E1004D27E356DE00620B8D /* MainInterface.storyboard in Resources */,
+				D4E1004027E356DE00620B8D /* CircuitBreaker_AUDSPKernel.hpp in Resources */,
+				D4E1003D27E356DE00620B8D /* BufferedAudioBus.hpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D435B02227E2B2B1002C42F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435B02E27E2B2B1002C42F3 /* ViewController.swift in Sources */,
+				D435B02A27E2B2B1002C42F3 /* AppDelegate.swift in Sources */,
+				D435B02C27E2B2B1002C42F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B03827E2B2B2002C42F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435B04127E2B2B2002C42F3 /* CircuitBreakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D435B04227E2B2B2002C42F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D435B04B27E2B2B2002C42F3 /* CircuitBreakerUITests.swift in Sources */,
+				D435B04D27E2B2B2002C42F3 /* CircuitBreakerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E1002C27E356DE00620B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E1003B27E356DE00620B8D /* DSPKernel.mm in Sources */,
+				D4E1004527E356DE00620B8D /* AudioUnitViewController.swift in Sources */,
+				D4E1004227E356DE00620B8D /* CircuitBreaker_AUDSPKernel.mm in Sources */,
+				D4E1003527E356DE00620B8D /* CircuitBreaker_AUAudioUnit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D435B03E27E2B2B2002C42F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D435B02527E2B2B1002C42F3 /* CircuitBreaker */;
+			targetProxy = D435B03D27E2B2B2002C42F3 /* PBXContainerItemProxy */;
+		};
+		D435B04827E2B2B2002C42F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D435B02527E2B2B1002C42F3 /* CircuitBreaker */;
+			targetProxy = D435B04727E2B2B2002C42F3 /* PBXContainerItemProxy */;
+		};
+		D4E1005027E356DE00620B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4E1002F27E356DE00620B8D /* CircuitBreaker AU */;
+			targetProxy = D4E1004F27E356DE00620B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D435B02F27E2B2B1002C42F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D435B03027E2B2B1002C42F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D435B03427E2B2B2002C42F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D435B03527E2B2B2002C42F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4E1004B27E356DE00620B8D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4E1004C27E356DE00620B8D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D435B04E27E2B2B2002C42F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05B27E2B5E1002C42F3 /* CircuitBreaker_project_debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D435B04F27E2B2B2002C42F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05C27E2B5EE002C42F3 /* CircuitBreaker_project_release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D435B05127E2B2B2002C42F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05D27E2B613002C42F3 /* CircuitBreaker_iosapp_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CircuitBreaker/CircuitBreaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircuitBreaker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D435B05227E2B2B2002C42F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05D27E2B613002C42F3 /* CircuitBreaker_iosapp_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(inherited)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = CircuitBreaker/CircuitBreaker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircuitBreaker/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D435B05427E2B2B2002C42F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B06027E2BE6D002C42F3 /* CircuitBreaker_tests_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircuitBreaker.app/CircuitBreaker";
+			};
+			name = Debug;
+		};
+		D435B05527E2B2B2002C42F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B06027E2BE6D002C42F3 /* CircuitBreaker_tests_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircuitBreaker.app/CircuitBreaker";
+			};
+			name = Release;
+		};
+		D435B05727E2B2B2002C42F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B06127E2BE8F002C42F3 /* CircuitBreaker_uitests_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircuitBreaker;
+			};
+			name = Debug;
+		};
+		D435B05827E2B2B2002C42F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B06127E2BE8F002C42F3 /* CircuitBreaker_uitests_target.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircuitBreaker;
+			};
+			name = Release;
+		};
+		D4E1005427E356DE00620B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05E27E2BA0C002C42F3 /* CircuitBreaker_audiounit_target.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CircuitBreaker AU/CircuitBreaker AU.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CircuitBreaker AU/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CircuitBreaker AU";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CircuitBreaker AU/CircuitBreaker_AU-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4E1005527E356DE00620B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435B05E27E2BA0C002C42F3 /* CircuitBreaker_audiounit_target.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "CircuitBreaker AU/CircuitBreaker AU.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CircuitBreaker AU/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CircuitBreaker AU";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CircuitBreaker AU/CircuitBreaker_AU-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D435B02127E2B2B1002C42F3 /* Build configuration list for PBXProject "CircuitBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435B04E27E2B2B2002C42F3 /* Debug */,
+				D435B04F27E2B2B2002C42F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435B05027E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435B05127E2B2B2002C42F3 /* Debug */,
+				D435B05227E2B2B2002C42F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435B05327E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435B05427E2B2B2002C42F3 /* Debug */,
+				D435B05527E2B2B2002C42F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D435B05627E2B2B2002C42F3 /* Build configuration list for PBXNativeTarget "CircuitBreakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435B05727E2B2B2002C42F3 /* Debug */,
+				D435B05827E2B2B2002C42F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4E1005627E356DE00620B8D /* Build configuration list for PBXNativeTarget "CircuitBreaker AU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4E1005427E356DE00620B8D /* Debug */,
+				D4E1005527E356DE00620B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D435B01E27E2B2B1002C42F3 /* Project object */;
+}

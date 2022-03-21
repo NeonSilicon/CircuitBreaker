@@ -1,0 +1,14 @@
+//
+//  CircuitBreaker_project_debug.xcconfig
+//  CircuitBreaker
+//
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "./CircuitBreaker_project.xcconfig"
+
+ASSETCATALOG_COMPILER_APPICON_NAME = CBSmiley
+
+

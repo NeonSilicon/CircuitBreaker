@@ -13,8 +13,12 @@ echo for the project in the Xcode_Config directory.
 echo
 read -p "Press enter/return to begin."
 
-echo What name do you want to use for the application?
-read app_name
+## If you want to control the application name from outside the Xcode build system, uncomment the following two lines
+## and add the third line to the file write section below.
+## Doing this for an AU complicates things and isn't really need for the purpose of this project.
+#echo What name do you want to use for the application?
+#read app_name
+#PRODUCT_NAME = $app_name
 
 echo What is your developer team ID? This can be left blank for unsigned macOS builds.
 echo The information is available at developer.apple.com for registered developers.
@@ -37,7 +41,6 @@ CODE_SIGN_STYLE = Automatic
 ORGANIZATION_IDENTIFIER = $org_id
 DEVELOPER_ENTITLEMENTS = -dev
 PROVISIONING_PROFILE_SPECIFIER =
-PRODUCT_NAME = $app_name
 file
 
 echo Finished configuration.
