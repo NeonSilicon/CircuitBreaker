@@ -27,6 +27,9 @@ read team_id
 echo What is your organization identifier, e.g. com.companyname
 read org_id
 
+echo What is your four character manufacturer code? Example: DEMO
+read manu_code
+
 echo Creating the Xcode_Config directory.
 mkdir -p Xcode_Config
 
@@ -41,6 +44,7 @@ CODE_SIGN_STYLE = Automatic
 ORGANIZATION_IDENTIFIER = $org_id
 DEVELOPER_ENTITLEMENTS = -dev
 PROVISIONING_PROFILE_SPECIFIER =
+MANUFACTURER_CODE = $manu_code
 file
 
 echo Finished configuration.
