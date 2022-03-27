@@ -8,7 +8,7 @@ The deliverable part of the project is an AUv3 that provides for a safety hard c
 
 The Xcode project is in the CircuitBreaker subdirectory of the directory that contains this README.md file.
 
-the *setup.sh* script should be run before opening the project in Xcode. Setup.sh will build a directory named Xcode_Config that contains a file named DeveloperSettings.xcconfig using information that is provided to the script when it is executed. The Xcode_Config directory is excluded from the Git repository in the .gitignore file. The point of doing this is that it insures that the developer signing data is not checked into the git repo. The configuration also allows for providing the organization identifier and the four character manufacturer code for the AUv3.
+the *setup.sh* script should be run before opening the project in Xcode. Setup.sh will build a directory named Xcode_Config that contains a file named DeveloperSettings.xcconfig using information that is provided to the script when it is executed. The Xcode_Config directory is excluded from the Git repository in the .gitignore file. The point of doing this is that it ensures that the developer signing data is not checked into the git repo. The configuration also allows for providing the organization identifier and the four character manufacturer code for the AUv3.
 
 Once the script has been run, you can directly edit the Xcode_Config/DeveloperSettings.xcconfig file to make changes or you can delete the Xcode_Config directory and rerun the setup.sh script.
 
