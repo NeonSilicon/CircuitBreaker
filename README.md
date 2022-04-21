@@ -21,7 +21,7 @@ The configuration files also include using different icons for the debug builds 
 
 ## Installing Builds
 
-Before installing a build for either a Mac or an iOS device you need to have Xcode configured to use your developer credentials and your device registered with with Xcode and your development computer. See the following two articles from Apple for further information about Xcode and distributing applications to registered devices.
+Before installing a build for either a Mac or an iOS device you need to have Xcode configured to use your developer credentials and your device registered with Xcode and your development computer. See the following two articles from Apple for further information about Xcode and distributing applications to registered devices.
 
 [Xcode](https://developer.apple.com/documentation/xcode)
 
